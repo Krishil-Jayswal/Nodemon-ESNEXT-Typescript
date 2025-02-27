@@ -1,7 +1,5 @@
-"USE SCRIPT";
 import express from "express";
-import homeController from "./controllers/home.controller"; // .js
-("END");
+import homeController from "./controllers/home.controller.js";
 const app = express();
 
 app.get("/", homeController);
